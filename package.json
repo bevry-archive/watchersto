@@ -1,0 +1,62 @@
+{
+	"name": "watchersto",
+	"version": "0.1.0",
+	"description": "Fetch a github projects watchers and exports them to either json, csv or vcf formats",
+	"homepage": "https://github.com/balupton/watchersto.npm",
+	"keywords": [
+		"github",
+		"email",
+		"watchers",
+		"newsletter",
+		"mail",
+		"campaign",
+		"csv",
+		"vcard"
+	],
+	"author": {
+		"name": "Benjamin Lupton",
+		"email": "b@lupton.cc",
+		"web": "http://balupton.com"
+	},
+	"maintainers": [
+		{
+			"name": "Benjamin Lupton",
+			"email": "b@lupton.cc",
+			"web": "http://balupton.com"
+		}
+	],
+	"contributors": [
+		{
+			"name": "Benjamin Lupton",
+			"email": "b@lupton.cc",
+			"web": "http://balupton.com"
+		}
+	],
+	"bugs": {
+		"web": "https://github.com/balupton/watchersto.npm/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://creativecommons.org/licenses/MIT/"
+		}
+	],
+	"repository" : {
+		"type" : "git",
+		"url" : "http://github.com/balupton/watchersto.npm.git"
+	},
+	"dependencies": {
+	   "request": ">=0.0.1",
+	   "http-agent": ">=0.0.1"
+	},
+	"engines" : {
+		"node": ">=0.4.0"
+	},
+	"directories": {
+		"lib": "./lib/watchersto"
+	},
+	"bin": {
+		"watchersto": "./bin/watchersto.js"
+	},
+	"main": "./lib/watchersto"
+}
