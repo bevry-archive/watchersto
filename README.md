@@ -4,7 +4,7 @@ Fetch a github projects watchers and exports them to either json, csv or vcf for
 
 ## Installation
 
-	npm install watchersto
+	npm install -g watchersto
 
 ## Usage
 
