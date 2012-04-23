@@ -2,7 +2,7 @@
 	"name": "watchersto",
 	"version": "0.1.0",
 	"description": "Fetch a github projects watchers and exports them to either json, csv or vcf formats",
-	"homepage": "https://github.com/balupton/watchersto.npm",
+	"homepage": "https://github.com/balupton/watchersto",
 	"keywords": [
 		"github",
 		"email",
@@ -33,7 +33,7 @@
 		}
 	],
 	"bugs": {
-		"web": "https://github.com/balupton/watchersto.npm/issues"
+		"web": "https://github.com/balupton/watchersto/issues"
 	},
 	"licenses": [
 		{
@@ -43,7 +43,7 @@
 	],
 	"repository" : {
 		"type" : "git",
-		"url" : "http://github.com/balupton/watchersto.npm.git"
+		"url" : "http://github.com/balupton/watchersto.git"
 	},
 	"dependencies": {
 	   "request": ">=0.0.1",
